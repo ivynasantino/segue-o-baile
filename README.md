@@ -1,2 +1,1 @@
-# raspagem-de-dados
-Repositório para aprendizado de raspagem de dados com a linguagem python
+Scripts que utilizam a api do lastfm para resgatar informações de similaridade de artistas, correlação de canções, entre outros.

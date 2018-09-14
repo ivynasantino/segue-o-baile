@@ -1,7 +1,7 @@
 import requests
 
 class LastfmScraperAuth(object):
-	# colocar em um arquivo e gitignore
-	def __init__(self):
-		self.url = "coloque a url aqui"; 
-		self.key = "chave da api";
+	
+	def __init__(self): 
+		self.api_key = "put the api key"
+		self.shared_secret = "put the shared secret"

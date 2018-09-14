@@ -1,2 +1,0 @@
-import BeautifulSoup
-import requests

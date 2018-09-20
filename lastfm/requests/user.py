@@ -20,3 +20,23 @@ def get_artist_tracks_user(user, artist):
 def get_love_tracks_user(user):
 	url_requests = url("user.getlovedtracks&user", user)
 	return requests.get(url_requests).content
+	
+def get_recent_tracks_user(user):
+	url_requests = url("user.getrecenttracks&user", user)
+	return requests.get(url_requests).content
+	
+def get_top_album_user(user):
+	url_requests = url("user.gettopalbums&user", user)
+	return requests.get(url_requests).content
+
+def get_top_artist_user(user):
+	url_requests = url("user.gettopartist$user", user)
+	return requests.get(url_requests).content
+
+def get_top_tags_user(user):
+	url_requests = url("user.gettoptags$user", user)
+	return requests.get(url_requests).content
+
+def get_top_tracks_user(user):
+	url_requests = url("user.gettoptracks$user", user)
+	return requests.get(url_requests).content

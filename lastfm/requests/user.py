@@ -40,3 +40,20 @@ def get_top_tags_user(user):
 def get_top_tracks_user(user):
 	url_requests = url("user.gettoptracks$user", user)
 	return requests.get(url_requests).content
+
+def  get_weekly_album_chart_user(user):
+	url_requests = url("user.getweeklyalbumchart&user", user)
+	return requests.get(url_requests).content
+	
+def  get_weekly_artist_chart_user(user):
+	url_requests = url("user.getweeklyartistchart&user", user)
+	return requests.get(url_requests).content
+
+def  get_weekly_chartlist_user(user):
+	url_requests = url("user.getweeklychartlist&user", user)
+	return requests.get(url_requests).content
+	
+def  get_weekly_track_chart_user(user):
+	url_requests = url("user.getweeklytrackchart&user", user)
+	return requests.get(url_requests).content
+

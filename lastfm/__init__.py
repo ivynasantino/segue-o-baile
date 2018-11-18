@@ -1,2 +1,3 @@
-import BeautifulSoup
+__author__ = "Ivyna Santino"
+
 import requests
